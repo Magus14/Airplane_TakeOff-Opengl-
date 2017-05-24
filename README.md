@@ -1,4 +1,3 @@
-#Airplane_TakeOff_Opengl  
+#Airplane_TakeOff&Landing_Opengl  
 
 
-Computer Graphics Assignment (KU)
