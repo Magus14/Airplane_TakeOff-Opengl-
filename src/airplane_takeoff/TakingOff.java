@@ -128,7 +128,6 @@ GLU glu=new GLU();
 //90%oftheplaneout
         gl.glPushMatrix();
         gl.glScaled(.25, .25, .25);
-<<<<<<< HEAD
         
          if(rtri>2 ){
             //rtri=7;
@@ -138,9 +137,6 @@ GLU glu=new GLU();
              gl.glTranslatef(-2.9f+rtri*4.2f, -2.9f+(float)(Math.pow(1.7, rtri)), 0);
         }
        
-=======
-        gl.glTranslatef(-2.9f+rtri*4.2f, -2.9f+(float)(Math.pow(1.7, rtri)), 0);
->>>>>>> origin/master
         gl.glRotatef(90f,3,2.8f,2);//f(0.5f,0f, 0f);
         gl.glColor3f(0, 0, 0);
         gl.glBegin (GL2.GL_LINE_LOOP);//static field
@@ -166,7 +162,6 @@ GLU glu=new GLU();
         //backwing
         gl.glPushMatrix();
         gl.glScaled(.25, .25, .25);
-<<<<<<< HEAD
         
          if(rtri>2 ){
             //rtri=7;
@@ -176,11 +171,8 @@ GLU glu=new GLU();
              gl.glTranslatef(-2.9f+rtri*4.2f, -2.9f+(float)(Math.pow(1.7, rtri)), 0);
         }
        
-=======
-        gl.glTranslatef(-2.9f+rtri*4.2f, -2.9f+(float)(Math.pow(1.7, rtri)), 0);
->>>>>>> origin/master
         //gl.glRotatef( rtri, rtri,0f,0f );//
-        gl.glColor3f(1, 1, 1);
+         gl.glColor3f(1, 1, 1);
         gl.glBegin (GL2.GL_POLYGON);  
         gl.glVertex3f(-.73f,.3f,.1f);
         gl.glVertex3f(-.75f,.3f,.1f);
@@ -190,14 +182,9 @@ GLU glu=new GLU();
         gl.glPopMatrix();
         //backwing
         //landgear
-<<<<<<< HEAD
          gl.glPushMatrix();
          gl.glScaled(.6, .6, .6);
        
-=======
-        gl.glPushMatrix();
-         
->>>>>>> origin/master
          if(rtri>0.8249994){
              
          if(rtri>2 ){
@@ -213,12 +200,8 @@ GLU glu=new GLU();
          }
         }
          else{
-<<<<<<< HEAD
              gl.glColor3f(1, 1, 1);
              gl.glTranslatef(-.7f+(rtri*(0.25f/.6f))*4.2f, -1.3f+(float)(Math.pow(1.89, rtri*(0.25f/.6f))), 0);
-=======
-            gl.glColor3f(1, 1, 1);
->>>>>>> origin/master
          }
         
         //gl.glTranslatef(-.7f, -.3f, 0);
@@ -251,13 +234,8 @@ gl.glTranslatef(landing_x*((0.25f/.6f))+-.829f+(trans*(0.25f/.6f))*4.2f, landing
              gl.glColor3f(1, 1, 1);
              gl.glTranslatef(-.829f+(rtri*(0.25f/.6f))*4.2f, -1.3f+(float)(Math.pow(1.89, rtri*(0.25f/.6f))), 0);
          }
-<<<<<<< HEAD
        //gl.glTranslatef(-.829f+(rtri*(0.25f/.6f))*4.2f, -1.3f+(float)(Math.pow(1.89, (rtri*(0.25f/.6f)))), 0);
         //gl.glTranslatef(-.829f, -1.3f, 0);
-=======
-        gl.glTranslatef(-.829f+(rtri*(0.25f/.6f))*4.2f, -1.3f+(float)(Math.pow(1.89, (rtri*(0.25f/.6f)))), 0);
-        //gl.glTranslatef(-.829f, -.3f, 0);
->>>>>>> origin/master
         gl.glBegin (GL2.GL_POLYGON);  
         gl.glVertex3f(-.485f,-.5f,.1f);
         gl.glVertex3f(-.485f,-.55f,.5f);
